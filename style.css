@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Barlow";
+    src: url(/fonts/Barlow-ExtraBoldItalic.ttf);
+}
+
+
 *{
     font-family: 'Poppins', sans-serif;
     margin:0;
@@ -15,7 +21,8 @@
     align-items: center;
     padding: 25px;
     min-height: 100vh;
-    background: linear-gradient(90deg, #ff4f4f 60%, #ff2020 40%);
+    background-color: #ffd2d2;
+    /* background: linear-gradient(90deg, #ff4f4f 60%, #ff2020 40%); */
     padding-bottom: 70px;
 }
 
@@ -39,10 +46,11 @@
 }
 
 .container form .row .column .title{
-    font-size: 20px;
-    color: #333;
+    font-size: 36px;
+    color: #ff2020;
     padding-bottom: 5px;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    font-family: "Barlow", sans-serif;
 }
 
 .container form .row .column .inputBox{
@@ -95,4 +103,18 @@ img{
     background: #ff4f4f;
 }
 
+table{
+    margin: 25px 0 25px 0;
+    width: 40em;
+    color: #a4a4a4;
+}
+
+td{
+   padding: 10px 15px 5px 0px;
+   margin-bottom: 5px;
+}
+
+table tr td:nth-last-child(1){
+    text-align: right;
+}
 
